@@ -5,9 +5,9 @@ import Button from "./Button";
 import Image from "next/image";
 const Business = () => (
   <section
-    className={` text-white  flex md:flex-row flex-col ${layout.section}`}
+    className={` text-white sm:py-16 py-10 flex md:flex-row flex-col ${layout.section}`}
   >
-    <div className={`${layout.sectionInfo} mb-16 sm:mb-0 `}>
+    <div className={`${layout.sectionInfo} `}>
       <h2 className={`${styles.heading2} text-[40px]`}>
         You do the business,
         <br className="sm:block hidden" /> we’ll handle the money.
@@ -20,7 +20,7 @@ const Business = () => (
       <Button styles="mt-3" />
     </div>
 
-    <div className={`${layout.sectionImg} flex-col`}>
+    <div className={`${layout.sectionImg} flex-col justify-start`}>
       {features.map((feature, index) => (
         <div
           key={feature.id}
