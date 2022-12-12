@@ -26,7 +26,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-primary flex justify-center items-start">
+      <div className="bg-primary flex sm:px-16 px-6 justify-center items-start">
         <div className="xl:max-w-[1280px] w-full">
           <Stats />
           <Business />
