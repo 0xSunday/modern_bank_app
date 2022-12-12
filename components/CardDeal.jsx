@@ -4,9 +4,7 @@ import { card } from "../public/assets";
 import styles, { layout } from "../Styles";
 import Button from "./Button";
 const CardDeal = () => (
-  <section
-    className={`${layout.section} sm:py-16 py-10`}
-  >
+  <section className={`${layout.section} sm:py-16 py-10`}>
     <div className={`${layout.sectionInfo}`}>
       <h2 className={`${styles.heading2}`}>
         Find a better card deal <br className="sm:block hidden" /> in few easy
@@ -19,7 +17,9 @@ const CardDeal = () => (
       <Button styles="mt-8" />
     </div>
     <div className={layout.sectionImg}>
-      <Image src={card} alt="card" className="w-[100%] h-[100%]" />
+      <Image src={card} alt="card" className="w-[100%] h-[100%] z-10" />
+      <div className="absolute z-5 right-1/6 top-0 w-[50%] h-[50%] rounded-full white__gradient"></div>
+      <div className="absolute z-0 right-1/6 top-0 w-[50%] h-[50%] rounded-full pink__gradient"></div>
     </div>
   </section>
 );
