@@ -14,7 +14,7 @@ const NavBar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`menu font-poppins font-normal cursor-pointer text-[16px] ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
           >
@@ -22,6 +22,7 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
+
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <Image
           src={tottle ? close : menu}

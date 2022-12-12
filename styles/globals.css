@@ -138,3 +138,59 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+
+
+.menu li:after,
+.menu li:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  display: block;
+  height: 1px;
+  transition: all 0.3s ease;
+  margin-top: 2px;
+  transition: all 300ms ease-in;
+}
+
+.menu li:after {
+  bottom: 25%;
+  left: 0;
+}
+
+.menu li:before {
+  top: 25%;
+  right: 0;
+}
+
+.menu li:hover::after {
+  width: 100%;
+  height: 1px;
+  bottom: 25%;
+  background-color: #fff;
+}
+.menu li:hover::before {
+  width: 100%;
+  height: 1px;
+  top: 25%;
+  background-color: #fff;
+}
+
+/* hover animation */
+
+.hover {
+  --s: 0.2em; /* the thickness of the line */
+  --c: red; /* the color */
+
+  padding-bottom: var(--s);
+  background: linear-gradient(90deg, var(--c) 50%, #000 0)
+      calc(100% - var(--_p, 0%)) / 200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.5s;
+}
+.hover:hover {
+  --_p: 100%;
+  color: red;
+}
