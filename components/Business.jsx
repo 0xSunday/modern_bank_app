@@ -17,7 +17,7 @@ const Business = () => (
         building credit, earning rewards and saving money. But with hundreds of
         credit cards on the market.
       </p>
-      <Button styles="mt-3" />
+      <Button styles="mt-8" />
     </div>
 
     <div className={`${layout.sectionImg} flex-col justify-start`}>
