@@ -8,7 +8,7 @@ import { use, useState } from "react";
 const NavBar = () => {
   const [tottle, setTottle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center navbar text-white">
       <Image src={logo} alt="logo" className=" w-[124px]" />
       <ul className="list-none hidden sm:flex justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
