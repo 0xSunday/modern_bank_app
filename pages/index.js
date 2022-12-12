@@ -9,7 +9,7 @@ import {
   Footer,
   Testimonial,
   Hero,
-} from "../components/index";
+} from "../components/AllFiles";
 
 export default function Home() {
   return (

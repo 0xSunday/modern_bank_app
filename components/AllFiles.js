@@ -5,7 +5,7 @@ import Business from "./Business";
 import Client from "./Client";
 import Cta from "./Cta";
 import Stats from "./Stats";
-import Footer from "./footer";
+import Footer from "./Footer";
 import Testimonial from "./Testimonial";
 import Hero from "./Hero";
 
