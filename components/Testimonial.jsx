@@ -5,10 +5,9 @@ import { feedback } from "../Data";
 const Testimonial = () => (
   <section
     id="client"
-    className=" sm:py-16 py-10 flex justify-center items-center flex-col sm:mb-16 mb:6 z-10"
   >
+    <div className="absolute z-0 w-[60%] h-[60%] -left-[40%]  rounded-full blue__gradient"></div>
 
-    <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%]  rounded-full blue__gradient"></div>
     
     <div className="flex justify-center items-center flex-1 w-full flex-col sm:flex-row sm:justify-between ">
       <h1 className={`${styles.heading2} flex sm:justify-center `}>
