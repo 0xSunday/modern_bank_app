@@ -1,6 +1,7 @@
 import React from "react";
 import { apple, bill, google } from "../public/assets";
 import styles, { layout } from "../Styles";
+import { quotes } from "../public/assets";
 import Image from "next/image";
 const Billings = () => (
   <section
