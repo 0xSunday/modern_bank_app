@@ -3,12 +3,9 @@ import FeedBackCard from "./FeedBackCard";
 import styles from "../Styles";
 import { feedback } from "../Data";
 const Testimonial = () => (
-  <section
-    id="client"
-  >
-    <div className="absolute z-0 w-[60%] h-[60%] -left-[40%]  rounded-full blue__gradient"></div>
+  <section id="client" className="sm:py-16 py-10">
+    <div className=" absolute z-0 w-[60%] h-[60%] -left-[40%]  rounded-full blue__gradient"></div>
 
-    
     <div className="flex justify-center items-center flex-1 w-full flex-col sm:flex-row sm:justify-between ">
       <h1 className={`${styles.heading2} flex sm:justify-center `}>
         What people are <br className="sm:block hidden" /> saying about us
@@ -22,9 +19,8 @@ const Testimonial = () => (
     </div>
 
     <div className="flex my-5 justify-center flex-col sm:flex-row items-start feedback-container relative z-10">
-      {feedback.map((card)=>(
-
-        <FeedBackCard key={card.id} {...card}/>
+      {feedback.map((card) => (
+        <FeedBackCard key={card.id} {...card} />
       ))}
     </div>
   </section>
