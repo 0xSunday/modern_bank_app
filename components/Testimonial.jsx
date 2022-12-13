@@ -3,7 +3,7 @@ import FeedBackCard from "./FeedBackCard";
 import styles from "../Styles";
 import { feedback } from "../Data";
 const Testimonial = () => (
-  <section id="client" className="sm:py-16 py-10">
+  <section id="client" className="sm:py-16 py-10 ">
     <div className=" absolute z-0 w-[60%] h-[60%] -left-[40%]  rounded-full blue__gradient"></div>
 
     <div className="flex justify-center items-center flex-1 w-full flex-col sm:flex-row sm:justify-between ">
