@@ -1,7 +1,7 @@
 import React from "react";
 import { apple, bill, google } from "../public/assets";
 import styles, { layout } from "../Styles";
-import Image from "next/Image";
+import Image from "next/image";
 const Billings = () => (
   <section
     id="product"
@@ -27,8 +27,8 @@ const Billings = () => (
         neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
       </p>
       <div className="flex   flex-row justify-around items-center mt-14 ">
-        <Image src={apple} alt="apple" className="mr-4" />
-        <Image src={google} alt="google" />
+        <Image src={apple} alt="apple" className="mr-4 w-28  " />
+        <Image src={google} alt="google" className="w-28 " />
       </div>
     </div>
   </section>
