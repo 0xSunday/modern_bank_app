@@ -5,6 +5,7 @@ import Button from "./Button";
 import Image from "next/image";
 const Business = () => (
   <section
+  
     className={` text-white sm:py-16 py-10 flex md:flex-row flex-col ${layout.section}`}
   >
     <div className={`${layout.sectionInfo} `}>
