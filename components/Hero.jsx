@@ -4,7 +4,7 @@ import { discount, robot } from "../public/assets";
 import GetStarted from "../components/GetStarted";
 import Image from "next/image";
 const Hero = () => (
-  <section id="home" className="flex flex-1 md:flex-row flex-col sm:py-16 py-6">
+  <section id="#home" className="flex flex-1 md:flex-row flex-col sm:py-16 py-6">
     <div className="flex-1 flex  justify-center items-start flex-col xl:px-0 sm:px-16 px-6 ">
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
         <Image src={discount} alt="discount" className="w-[32px] h-[32px]" />

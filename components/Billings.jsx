@@ -5,7 +5,7 @@ import { quotes } from "../public/assets";
 import Image from "next/image";
 const Billings = () => (
   <section
-    id="product"
+    id="#product"
     className="flex md:flex-row flex-col-reverse sm:py-16 py-10 "
   >
     <div
